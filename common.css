@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/* global style, common */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+image {
+    vertical-align: top;
+}
+body {
+    font-family: "GmarketSans",-apple-system, BlinkMacSystemFont, Malgun Gothic, 맑은 고딕, helvetica, Apple SD Gothic Neo, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5;
+    text-transform: capitalize;
+    background: #321f11 url(./assets/images/dark-wood.jpg);
+    /* 배경이미지 로딩이 느릴때를 고려하여 bgimg와 비슷한 색상을 넣어둠 */
+}
+
+/****** main ******/
+main {
+    border: 4px solid #f3dcff;
+    min-width: 940px;
+    max-width: 70vw;
+    margin: 20px auto;
+    background-color: #fff;
+}

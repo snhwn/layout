@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>about</title>
+  <meta name="description" content="가장 기본적인 웹사이트 연습">
+
+  <!-- og -->
+    <meta property="og:title" content="layout web">
+    <meta property="og:url" content="https://snhwn.github.io/repo">
+    <meta property="og:image" content="https://snhwn.github.io/repo/assets/logo.png">
+    <meta property="og:description" content="기본적인 웹사이트 연습">
+    <meta property="og:type" content="website">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./assets/manifest.webmanifest">
+
+  <!-- style -->
+  <!-- 초기화 reset css -->
+    <link rel="stylesheet" href="./assets/styles/minireset.min.css">
+  <!-- 웹폰트 설정 -->
+    <link rel="stylesheet" href="./assets/styles/fonts.css">
+      <!-- 내가 작성한 common, header, footer -->
+      <link rel="stylesheet" href="./common.css">
+      <link rel="stylesheet" href="./header.css">
+      <link rel="stylesheet" href="./footer.css">
+  <!-- 내가 작성한 css -->
+    <link rel="stylesheet" href="./about.css">
+</head>
+
+<body>
+  <main> <!-- main 태그는 body 다음에 오는 상위 태그. 한 페이지에 하나만 사용 -->
+    <!-- header 영역 -->
+    <header>
+      <h1><em>kim's kitchen</em>cooking class</h1>
+      <!-- 로고 옆 글자를 em으로 분리해서 제어 -->
+
+      <!-- 메뉴 : 로고와 함께 페이지가 바뀌어도 사용자에게 계속 보여져야 하기 때문에 header 영역에 위치 -->
+      <ul class="gnb">
+        <li><a href="./layout1.html">홈</a></li>
+        <li><a href="./about.html">소개</a></li>
+        <li><a href="#">교실</a></li>
+        <li><a href="#">케이터링</a></li>
+        <li><a href="#">contact us</a></li>
+      </ul>
+    </header>
+
+    <!-- contents 영역 -->
+    <div class="about-contents">
+      <h2>회사 소개</h2>
+    </div>
+      
+
+    <!-- footer 영역 -->
+    <footer>&copy;kim's kitchen 김씨네 키친</footer>
+  </main>
+</body>
+</html>

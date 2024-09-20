@@ -1,0 +1,11 @@
+{
+  "name": "layout web",
+  "short_name": "layout",
+  "icons": [
+    { 
+      "src": "./images/logo.png", 
+      "type": "image/png", 
+      "sizes": "192x192" 
+    }
+  ]
+}

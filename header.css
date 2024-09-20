@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+/****** header ******/
+main header {}
+main header h1 {
+    font-family: "Playwrite Cuba", "Pacifico" cursive;
+    font-size: 1.2em;
+    color: #fff;
+    background: #674188 url(./assets/images/logo.png) no-repeat 25px 50% / 90px;
+    height: 130px;
+    /* text-indent: -9999px; 
+    font-size: 0;
+    opacity: 0;
+    user-select: none; 특정 부분 텍스트 제어. none; 텍스트 선택 x */
+
+    /* text-indent: 100%;
+    padding-left: 130px; */
+    padding: 0 0 0 130px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+
+    
+}
+main header h1 em {
+    font-family: "Pacifico", cursive;
+    display: block; /* 줄바꿈 */
+    line-height: 1;
+    font-size: 2.1rem;
+}
+
+main header .gnb {
+    display: flex;
+    background-color: #fffc43;
+    font-weight: 500;
+    
+    
+}
+main header .gnb li {}
+main header .gnb li a {
+    display: block;
+    width: 130PX; height: 46PX;
+    line-height: 46PX;
+    text-align: center;
+    color: #674188;
+    
+}
+main header .gnb li a:hover {
+    background: RED;
+}
